@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:/home/test/uarttest/uarttest.srcs/constrs_1/new/deneme.xdc rfile:../../../uarttest.srcs/constrs_1/new/deneme.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN U18 [get_ports clk]
+set_property src_info {type:XDC file:1 line:8 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN J19 [get_ports rx_i]
+set_property src_info {type:XDC file:1 line:11 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN K19 [get_ports tx_o]
