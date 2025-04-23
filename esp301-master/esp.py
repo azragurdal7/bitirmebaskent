@@ -62,18 +62,17 @@ class esp:
 			self.setpos(pos,axis)
 		return self.getpos(axis)
 
-axis1 = esp(dev="/dev/ttyUSB1", axis=1)
-
+axis1 = esp(dev="/dev/ttyUSB0", axis=1)
 axis1.setpos(100, 1)
 axis1.setpos(-100, 1)
 axis1.reset(1)
 
-
-axis2 = esp(dev="/dev/ttyUSB1", axis=2)
+axis2 = esp(dev="/dev/ttyUSB0", axis=2)
 axis2.setpos(100, 2)
 axis2.setpos(-100, 2)
 axis2.reset(2)
-axis3 = esp(dev="/dev/ttyUSB1", axis=3)
+
+axis3 = esp(dev="/dev/ttyUSB0", axis=3)
 axis3.setpos(200, 3)
 axis3.setpos(-200, 3)
 axis3.reset(3)
